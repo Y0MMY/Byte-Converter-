@@ -25,27 +25,4 @@ The `Layer` class is an abstract base class that defines the interface for scrip
 - `virtual int work2() = 0`: Pure virtual function that performs work 2.
 - `virtual int work3() = 0`: Pure virtual function that performs work 3.
 
-### Example Usage
 
-Here is an example of how to use the Script-Core library:
-
-```cpp
-#include <Script-Core/Layer.h>
-
-class MyLayer : public Layer
-{
-public:
-    virtual int work1() override { /* implementation */ }
-    virtual int work2() override { /* implementation */ }
-    virtual int work3() override { /* implementation */ }
-};
-
-int main()
-{
-    MyLayer layer;
-    layer.work1();
-    layer.work2();
-    layer.work3();
-
-    return 0;
-}
