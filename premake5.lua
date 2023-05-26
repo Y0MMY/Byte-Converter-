@@ -1,4 +1,4 @@
-workspace "RockEngine"
+workspace "ScriptDLL"
 	architecture "x64"
 	targetdir "build"
 	
